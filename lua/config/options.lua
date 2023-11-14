@@ -8,7 +8,7 @@ opt.expandtab = true
 opt.smartindent = true
 opt.wrap = false
 
--- Search 
+-- Search
 opt.incsearch = true
 opt.ignorecase = true
 opt.smartcase = true
@@ -19,7 +19,7 @@ opt.relativenumber = true
 opt.termguicolors = true
 opt.colorcolumn = '100'
 opt.signcolumn = "yes"
-opt.cmdheight = 1 
+opt.cmdheight = 1
 opt.scrolloff = 10
 opt.completeopt = "menuone,noinsert,noselect"
 
@@ -40,3 +40,17 @@ opt.clipboard:append("unnamedplus")
 opt.modifiable = true
 --opt.guicursor = TODO
 opt.encoding = "UTF-8"
+
+-- set title
+-- set bg=light
+-- set go=a
+-- set mouse=a
+-- set nonhlsearch
+-- set clipboard+=unnamedplus
+-- set nowshowmode
+-- set noruler
+-- set laststatus=0
+-- set noshowcmd
+-- set splitbelow splitright
+
+
