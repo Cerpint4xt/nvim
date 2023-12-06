@@ -1,7 +1,8 @@
-local config = function()
+local init = function()
 	local s = { [".Rmd"] = "markdown", [".rmd"] = "markdown", [".md"] = "markdown", [".mdown"] = "markdown" }
 	local l = {}
-	l.path = "~/.local/share/nvim/vimwiki"
+	-- l.path = "~/.local/share/nvim/vimwiki"
+	l.path = "/home/raul/.local/share/nvim/vimwiki"
 	l.syntax = "markdown"
 	l.ext = ".md"
 	vim.g.vimwiki_ext2syntax = s
@@ -15,5 +16,6 @@ return {
 	lazy = false,
 	event = "VeryLazy",
 	enabled = true,
-	config = config,
+	-- config
+	init = init,
 }
